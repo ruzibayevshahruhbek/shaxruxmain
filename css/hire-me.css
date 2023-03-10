@@ -1,0 +1,78 @@
+.hire-me__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+.hire-me__images-container {
+    display: flex;
+    justify-content: space-evenly;   
+    gap: 50px;
+}
+
+.hire-me__image{ 
+    text-align: center;
+}
+
+.hire-me__image-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text-color);
+    margin: 10px 0 4px 0;
+}
+
+.hire-me__image-info {
+    font-size: 18px;
+    color: var(--gray);
+    font-weight: 400;   
+    line-height: 30px;
+}
+
+.hire-me__work {
+    height: 16rem;
+    background-color: var(--brand-color);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin: 4rem 0;
+}
+
+.hire-me__work-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--white);
+    line-height: 62px;
+}
+
+.hire-me__work-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.hire-me__work-button {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 2px solid var(--white);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.hire-me__work-button:nth-child(1) {
+    background-color: var(--white);
+    color: var(--text-color);
+}
+
+.hire-me__work-button:nth-child(2) {
+    background-color: inherit;
+    color: var(--white);
+}
+
+.hire-me__logos {
+    text-align: center;
+    margin: 90px 0;
+}
