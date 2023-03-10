@@ -1,0 +1,58 @@
+.hero-info {
+    margin: 130px 0;
+}
+
+.hero-info__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+    margin: 1.5rem 0;
+    padding: 65px;
+    background-color: var(--light-gray);
+    border-radius: 45px;
+}
+
+.hero-info__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-info__content-scores {
+    display: flex;
+    gap: 50px;
+}
+
+.hero-info__content-score{
+    font-weight: 600;
+    font-size: 72px;
+    color: var(--text-color);
+    line-height: 62px;
+}
+
+.hero-info__content-score span {
+    color: lightgreen;
+}
+
+.hero-info__content-text {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--gray);
+}
+
+.hero-info__content-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: var(--text-color);
+    margin-bottom: 1.4rem;
+}
+
+.hero-info__content-info {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    color: var(--text-color);
+}
